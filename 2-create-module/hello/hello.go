@@ -30,9 +30,9 @@ func main() {
 	fmt.Println(message)
 	fmt.Println(message[nameDanbul2])
 
-	simpleMessage, err := greetings.HelloMultiple([]string{"susan", "amoguis"})
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Println(simpleMessage)
+	// simpleMessage, err := greetings.HelloMultiple([]string{"susan", "amoguis"})
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
+	// fmt.Println(simpleMessage)
 }
