@@ -31,7 +31,7 @@ func Hello(name string) (string, error) {
 	//also array of errors works
 
 	if name == "" {
-		return "", errors.New("empty lastname")
+		return "", errors.New("empty name")
 	}
 	// Return a greeting that embeds the name in a message.
 	message := fmt.Sprintf(randomFormat(), name)
